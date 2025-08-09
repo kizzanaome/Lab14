@@ -6,20 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CurrencyApp" />
+        <module name="CompanyService" />
         <module name="petHealthApp" />
+        <module name="ProfitApp" />
         <module name="partA" />
-        <module name="productCatalog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="PartA" target="21" />
       <module name="PartB" target="1.5" />
       <module name="PartD" target="1.5" />
+      <module name="productCatalog" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CompanyService" options="-parameters" />
+      <module name="CurrencyApp" options="-parameters" />
       <module name="PartA" options="-parameters" />
+      <module name="ProfitApp" options="-parameters" />
       <module name="partA" options="-parameters" />
       <module name="petHealthApp" options="-parameters" />
       <module name="productCatalog" options="-parameters" />

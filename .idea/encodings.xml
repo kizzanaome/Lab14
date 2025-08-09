@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/PartA/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PartB/productCatalog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartD/CompanyService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartD/CurrencyApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartD/ProfitApp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/petHealthApp/src/main/java" charset="UTF-8" />
   </component>
 </project>

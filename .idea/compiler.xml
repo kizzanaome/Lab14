@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="petHealthApp" />
         <module name="partA" />
+        <module name="productCatalog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="PartA" options="-parameters" />
       <module name="partA" options="-parameters" />
       <module name="petHealthApp" options="-parameters" />
+      <module name="productCatalog" options="-parameters" />
     </option>
   </component>
 </project>
